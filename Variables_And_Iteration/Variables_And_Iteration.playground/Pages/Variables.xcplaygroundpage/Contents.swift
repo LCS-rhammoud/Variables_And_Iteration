@@ -2,6 +2,7 @@
 //: # Variables
 //: The following two statements are required to make the playground run. Please do not remove.
 import Cocoa
+
 import PlaygroundSupport
 /*:
  ## Variables
@@ -9,7 +10,7 @@ import PlaygroundSupport
 
  Run the playground. You will see the result in the sidebar.
  */
-var age = 40
+var age = 15
 
 /*:
  A variable, once set, can be changed.
@@ -25,7 +26,7 @@ var age = 40
  Notice in the sidebar that the age changes.
  */
 
-//age = 15
+age = 15
 
 /*:
  A variable, once set, is assigned a type by Swift, the programming language.
