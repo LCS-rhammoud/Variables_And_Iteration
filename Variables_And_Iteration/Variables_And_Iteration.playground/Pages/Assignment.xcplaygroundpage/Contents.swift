@@ -18,9 +18,40 @@ import PlaygroundSupport
 //: ## Add your code below
 
 // Create canvas
-let canvas = Canvas(width: 300, height: 300)
+let canvas = Canvas(width: 500, height: 500)
 
-// Below this line, try combining a loop and four statements that draw lines to generate the goal
+canvas.drawShapesWithFill = false
+
+// Loop to set the horizontal position
+for x in stride(from: 50, through: 450, by: 100) {
+    
+    // loop to set vertical position
+    
+    for y in stride(from: 450, through: 50, by: -100) {
+        
+        //draw five squares
+        
+        for size in stride(from: 100, through: 0, by: -20){
+        
+        
+        size
+        
+       canvas.drawRectangle(centreX: x, centreY: y, width: size, height: size)
+        
+
+        
+        }
+        
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+}
 
 /*:
  ## Template code
